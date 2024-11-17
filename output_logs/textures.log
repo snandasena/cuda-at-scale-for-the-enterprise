@@ -1,0 +1,135 @@
+NPP Library Version 12.3.1
+  CUDA Driver Version: 12.3
+  CUDA Runtime Version: 12.6
+  Device 0: <          Turing >, Compute SM 7.5 detected
+Input Directory: ../data/textures/
+Output Directory: ../output/
+Deleting: "../output/wolf_gauss_filtered.pgm"
+Processing: ../data/textures/textures/1.1.10.tiff
+Processing: ../data/textures/textures/1.2.13.tiff
+Processing: ../data/textures/textures/texmos2.s512.tiff
+Processing: ../data/textures/textures/1.4.12.tiff
+Processing: ../data/textures/textures/1.2.05.tiff
+Processing: ../data/textures/textures/1.2.09.tiff
+Processing: ../data/textures/textures/1.3.09.tiff
+Finished: ../data/textures/textures/1.1.10.tiff -> ../output//1.1.10_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.13.tiff -> ../output//1.2.13_gauss_filtered.pgm
+Finished: ../data/textures/textures/texmos2.s512.tiff -> ../output//texmos2.s512_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.05.tiff -> ../output//1.2.05_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.09.tiff -> ../output//1.2.09_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.09.tiff -> ../output//1.3.09_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.12.tiff -> ../output//1.4.12_gauss_filtered.pgm
+Processing: ../data/textures/textures/1.3.13.tiff
+Processing: ../data/textures/textures/1.1.05.tiff
+Processing: ../data/textures/textures/1.1.09.tiff
+Processing: ../data/textures/textures/1.2.07.tiff
+Processing: ../data/textures/textures/texmos2.p512.tiff
+Processing: ../data/textures/textures/1.1.06.tiff
+Processing: ../data/textures/textures/1.4.10.tiff
+Processing: ../data/textures/textures/texmos3.p512.tiff
+Finished: ../data/textures/textures/1.1.05.tiff -> ../output//1.1.05_gauss_filtered.pgm
+Finished: ../data/textures/textures/texmos2.p512.tiff -> ../output//texmos2.p512_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.09.tiff -> ../output//1.1.09_gauss_filtered.pgm
+Finished: ../data/textures/textures/texmos3.p512.tiff -> ../output//texmos3.p512_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.06.tiff -> ../output//1.1.06_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.07.tiff -> ../output//1.2.07_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.13.tiff -> ../output//1.3.13_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.10.tiff -> ../output//1.4.10_gauss_filtered.pgm
+Processing: ../data/textures/textures/texmos3.s512.tiff
+Processing: ../data/textures/textures/1.1.08.tiff
+Processing: ../data/textures/textures/1.5.05.tiffProcessing: ../data/textures/textures/1.3.08.tiff
+
+Processing: ../data/textures/textures/1.4.09.tiff
+Processing: ../data/textures/textures/1.4.02.tiff
+Processing: ../data/textures/textures/1.2.01.tiff
+Processing: ../data/textures/textures/1.4.11.tiff
+Finished: ../data/textures/textures/texmos3.s512.tiff -> ../output//texmos3.s512_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.08.tiff -> ../output//1.1.08_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.01.tiff -> ../output//1.2.01_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.5.05.tiff -> ../output//1.5.05_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.11.tiff -> ../output//1.4.11_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.02.tiff -> ../output//1.4.02_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.09.tiff -> ../output//1.4.09_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.08.tiff -> ../output//1.3.08_gauss_filtered.pgm
+Processing: ../data/textures/textures/1.3.11.tiff
+Processing: ../data/textures/textures/1.4.04.tiff
+Processing: ../data/textures/textures/1.1.13.tiff
+Processing: ../data/textures/textures/1.2.06.tiff
+Processing: ../data/textures/textures/1.5.01.tiff
+Processing: ../data/textures/textures/1.4.06.tiff
+Processing: ../data/textures/textures/1.2.04.tiff
+Processing: ../data/textures/textures/1.3.03.tiff
+Finished: ../data/textures/textures/1.1.13.tiff -> ../output//1.1.13_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.04.tiff -> ../output//1.2.04_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.06.tiff -> ../output//1.2.06_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.5.01.tiff -> ../output//1.5.01_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.11.tiff -> ../output//1.3.11_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.04.tiff -> ../output//1.4.04_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.03.tiff -> ../output//1.3.03_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.06.tiff -> ../output//1.4.06_gauss_filtered.pgm
+Processing: ../data/textures/textures/1.5.07.tiff
+Processing: ../data/textures/textures/1.3.07.tiff
+Processing: ../data/textures/textures/1.3.05.tiff
+Processing: ../data/textures/textures/1.2.03.tiff
+Processing: ../data/textures/textures/1.5.06.tiff
+Processing: ../data/textures/textures/1.2.02.tiff
+Processing: ../data/textures/textures/1.4.01.tiff
+Processing: ../data/textures/textures/texmos3b.p512.tiff
+Finished: ../data/textures/textures/1.2.03.tiff -> ../output//1.2.03_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.02.tiff -> ../output//1.2.02_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.5.07.tiff -> ../output//1.5.07_gauss_filtered.pgm
+Finished: ../data/textures/textures/texmos3b.p512.tiff -> ../output//texmos3b.p512_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.5.06.tiff -> ../output//1.5.06_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.07.tiff -> ../output//1.3.07_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.01.tiff -> ../output//1.4.01_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.05.tiff -> ../output//1.3.05_gauss_filtered.pgm
+Processing: ../data/textures/textures/1.3.04.tiff
+Processing: ../data/textures/textures/1.1.04.tiff
+Processing: ../data/textures/textures/1.4.07.tiff
+Processing: ../data/textures/textures/1.5.03.tiff
+Processing: ../data/textures/textures/1.3.01.tiff
+Processing: ../data/textures/textures/1.1.02.tiff
+Processing: ../data/textures/textures/1.3.10.tiff
+Processing: ../data/textures/textures/1.2.10.tiff
+Finished: ../data/textures/textures/1.1.02.tiff -> ../output//1.1.02_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.04.tiff -> ../output//1.1.04_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.10.tiff -> ../output//1.2.10_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.5.03.tiff -> ../output//1.5.03_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.10.tiff -> ../output//1.3.10_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.07.tiff -> ../output//1.4.07_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.01.tiff -> ../output//1.3.01_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.04.tiff -> ../output//1.3.04_gauss_filtered.pgm
+Processing: ../data/textures/textures/1.1.03.tiff
+Processing: ../data/textures/textures/1.4.05.tiff
+Processing: ../data/textures/textures/texmos1.p512.tiff
+Processing: ../data/textures/textures/1.4.03.tiff
+Processing: ../data/textures/textures/1.1.07.tiff
+Processing: ../data/textures/textures/1.2.12.tiff
+Processing: ../data/textures/textures/1.2.08.tiff
+Processing: ../data/textures/textures/1.3.06.tiff
+Finished: ../data/textures/textures/1.1.03.tiff -> ../output//1.1.03_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.07.tiff -> ../output//1.1.07_gauss_filtered.pgm
+Finished: ../data/textures/textures/texmos1.p512.tiff -> ../output//texmos1.p512_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.12.tiff -> ../output//1.2.12_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.08.tiff -> ../output//1.2.08_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.03.tiff -> ../output//1.4.03_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.05.tiff -> ../output//1.4.05_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.06.tiff -> ../output//1.3.06_gauss_filtered.pgm
+Processing: ../data/textures/textures/1.5.04.tiff
+Processing: ../data/textures/textures/1.3.12.tiff
+Processing: ../data/textures/textures/1.4.08.tiff
+Processing: ../data/textures/textures/1.1.01.tiff
+Processing: ../data/textures/textures/1.1.11.tiff
+Processing: ../data/textures/textures/1.2.11.tiff
+Processing: ../data/textures/textures/1.1.12.tiff
+Processing: ../data/textures/textures/1.3.02.tiff
+Finished: ../data/textures/textures/1.5.04.tiff -> ../output//1.5.04_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.01.tiff -> ../output//1.1.01_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.12.tiff -> ../output//1.1.12_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.1.11.tiff -> ../output//1.1.11_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.2.11.tiff -> ../output//1.2.11_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.02.tiff -> ../output//1.3.02_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.3.12.tiff -> ../output//1.3.12_gauss_filtered.pgm
+Finished: ../data/textures/textures/1.4.08.tiff -> ../output//1.4.08_gauss_filtered.pgm
+Processing: ../data/textures/textures/1.5.02.tiff
+Finished: ../data/textures/textures/1.5.02.tiff -> ../output//1.5.02_gauss_filtered.pgm

@@ -1,0 +1,8 @@
+NPP Library Version 12.3.1
+  CUDA Driver Version: 12.3
+  CUDA Runtime Version: 12.6
+  Device 0: <          Turing >, Compute SM 7.5 detected
+Input Directory: ../data/single/
+Output Directory: ../output/
+Processing: ../data/single/wolf.bmp
+Finished: ../data/single/wolf.bmp -> ../output//wolf_gauss_filtered.pgm
