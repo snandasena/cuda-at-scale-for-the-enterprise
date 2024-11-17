@@ -139,7 +139,7 @@ void processBatch(const std::vector<std::string> &batch, const std::string &outp
                                      std::string outputFile =
                                              outputDir + "/" + imagePath.substr(imagePath.find_last_of("/\\") + 1);
                                      outputFile =
-                                             outputFile.substr(0, outputFile.find_last_of(".")) + "_gauss_filtered.pgm";
+                                             outputFile.substr(0, outputFile.find_last_of('.')) + "_gauss_filtered.pgm";
                                      applyGaussFilter(imagePath, outputFile);
                                  });
         }
@@ -232,10 +232,9 @@ std::tuple<std::string, std::string> parseInputOutputDirs(int argc, char *argv[]
 
 
 /**
- * Entry point for the program.
  *
  * This function prints CUDA and NPP version information, then processes all images
- * in the specified input directory by applying a Gaussian filter. The processed images
+ * in the specified input directory by applying a Gauss filter. The processed images
  * are saved to the specified output directory.
  */
 int main(int argc, char *argv[])
