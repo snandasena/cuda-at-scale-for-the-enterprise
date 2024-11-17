@@ -5,6 +5,7 @@
 
 #include <cuda_runtime.h>
 #include <helper_cuda.h>
+#include <helper_string.h>
 #include <nppi.h>
 
 #include <string>
@@ -167,7 +168,10 @@ void processBatch(const std::vector<std::string> &batch, const std::string &outp
  */
 void processImagesInDirectory(const std::string &inputDir, const std::string &outputDir)
 {
-    cleanupOutputDirectory(outputDir);
+    if (fs::exists(outputDir))
+        cleanupOutputDirectory(outputDir);
+    else
+        fs::create_directory(outputDir);
 
     // Collect all valid image paths from the input directory
     std::vector<std::string> imagePaths;
@@ -196,6 +200,40 @@ void processImagesInDirectory(const std::string &inputDir, const std::string &ou
     }
 }
 
+
+// Function to parse input and output directories from command-line arguments
+std::tuple<std::string, std::string> parseInputOutputDirs(int argc, char *argv[])
+{
+    // Default input and output directories
+    std::string inputDir = "../data/";
+    std::string outputDir = "../output/";
+
+    // Parse command-line arguments for input and output directories
+    if (checkCmdLineFlag(argc, (const char **) argv, "input"))
+    {
+        char *inputPath = nullptr;
+        getCmdLineArgumentString(argc, (const char **) argv, "input", &inputPath);
+        if (inputPath)
+        {
+            inputDir = inputPath;
+        }
+    }
+
+    if (checkCmdLineFlag(argc, (const char **) argv, "output"))
+    {
+        char *outputPath = nullptr;
+        getCmdLineArgumentString(argc, (const char **) argv, "output", &outputPath);
+        if (outputPath)
+        {
+            outputDir = outputPath;
+        }
+    }
+
+    // Return the directories as a tuple
+    return std::make_tuple(inputDir, outputDir);
+}
+
+
 /**
  * Entry point for the program.
  *
@@ -210,9 +248,14 @@ int main(int argc, char *argv[])
         exit(EXIT_SUCCESS);
     }
 
-    // Input and output directories
-    std::string inputDir = "/home/sajith/dev/cuda-at-scale-for-the-enterprise/data/";
-    std::string outputDir = "/home/sajith/dev/cuda-at-scale-for-the-enterprise/output/";
+
+    // Call the function to parse input and output directories
+    std::string inputDir, outputDir;
+    std::tie(inputDir, outputDir) = parseInputOutputDirs(argc, argv);
+
+    // Log the directories being used
+    std::cout << "Input Directory: " << inputDir << std::endl;
+    std::cout << "Output Directory: " << outputDir << std::endl;
 
     // Process images in the input directory
     processImagesInDirectory(inputDir, outputDir);
