@@ -177,10 +177,7 @@ void processImagesInDirectory(const std::string &inputDir, const std::string &ou
     std::vector<std::string> imagePaths;
     for (const auto &entry: fs::recursive_directory_iterator(inputDir))
     {
-        if (entry.is_regular_file() && entry.path().extension() == ".bmp")
-        {
-            imagePaths.push_back(entry.path().string());
-        }
+        imagePaths.push_back(entry.path().string());
     }
 
     // Determine the number of threads to use
