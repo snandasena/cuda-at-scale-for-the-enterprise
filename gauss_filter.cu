@@ -48,10 +48,12 @@ void gaussFilter(const std::string &filePath, const std::string &outputFile)
 {
     try
     {
+
         std::cout << "Processing of " << filePath << " started." << std::endl;
         npp::ImageCPU_8u_C1 hostSrc;
         npp::loadImage(filePath, hostSrc);
         npp::ImageNPP_8u_C1 deviceSrc(hostSrc);
+
         const NppiSize srcSize = {(int) deviceSrc.width(), (int) deviceSrc.height()};
         const NppiPoint srcOffset = {0, 0};
 
@@ -68,10 +70,10 @@ void gaussFilter(const std::string &filePath, const std::string &outputFile)
         npp::saveImage(outputFile, hostDst);
         std::cout << "Processing of " << filePath << " ended. Result saved to: " << outputFile << std::endl;
 
-//        nppiFree(deviceSrc.data());
-//        nppiFree(deviceDst.data());
-//        nppiFree(hostSrc.data());
-//        nppiFree(hostDst.data());
+        nppiFree(deviceSrc.data());
+        nppiFree(deviceDst.data());
+        nppiFree(hostSrc.data());
+        nppiFree(hostDst.data());
     }
     catch (npp::Exception &rException)
     {
@@ -99,7 +101,9 @@ int main(int argc, char *argv[])
         exit(EXIT_SUCCESS);
     }
 
-    findCudaDevice(argc, (const char **) argv);
+
+    gaussFilter("/home/sajith/dev/cuda-at-scale-for-the-enterprise/data/wolf.bmp",
+                "/home/sajith/dev/cuda-at-scale-for-the-enterprise/output/wolf-filtered.pgm");
 
     return 0;
 }
