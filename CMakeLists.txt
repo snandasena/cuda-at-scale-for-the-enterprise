@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.30)
 # Enable CMP0104 to ensure CUDA architectures are set properly
 cmake_policy(SET CMP0104 NEW)
 
-project(GaussianFilter LANGUAGES C CXX CUDA)
+project(GaussFilter LANGUAGES C CXX CUDA)
 
 set(FETCHCONTENT_QUIET OFF)
 include(FetchContent)
